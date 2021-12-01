@@ -73,7 +73,7 @@ const AddUserModal = ({ addUserModal, setAddUserModal }) => {
 
                         <Form.Group >
                             <Form.Label>Password *</Form.Label>
-                            <Form.Control required value={password} onChange={(e) => setPassword(e.target.value)} type="text" />
+                            <Form.Control required value={password} onChange={(e) => setPassword(e.target.value)} type="password" />
                         </Form.Group>
                         <br />
 
